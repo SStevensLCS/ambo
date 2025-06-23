@@ -26,6 +26,10 @@
             0% { transform: rotate(0deg); }
             100% { transform: rotate(360deg); }
         }
+
+        .custom-bg {
+            background-color: #002e56;
+        }
     </style>
 </head>
 <body class="bg-gray-50 flex items-center justify-center min-h-screen">
@@ -44,7 +48,7 @@
                 <label for="phone-number" class="text-sm font-medium text-gray-700">Phone Number</label>
                 <input type="tel" id="phone-number" placeholder="e.g., 555-123-4567" class="mt-1 block w-full px-4 py-3 border border-gray-300 rounded-lg shadow-sm placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-blue-500 transition">
             </div>
-            <button id="submit-btn" class="w-full bg-blue-600 text-white font-semibold py-3 px-4 rounded-lg hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-blue-500 transition duration-300 ease-in-out shadow-md" style="background-color: #002e56;">
+            <button id="submit-btn" class="w-full custom-bg text-white font-semibold py-3 px-4 rounded-lg hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-blue-500 transition duration-300 ease-in-out shadow-md">
                 Look Up My Hours
             </button>
         </div>
